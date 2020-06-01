@@ -34,7 +34,7 @@ In "func application(_ application: UIApplication, didFinishLaunchingWithOptions
 ```swift
 CTManager.shared.initWithApiKey(apiKey: "AUFUxY5yox2XSnPid2F2Q2FluHfEitGxay6W8YwX")
 CTManager.shared.start()
-```swift
+```
 
 ### 3. Add device will go to background callback
 When your app is going to background, please call this function
