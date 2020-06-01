@@ -1,0 +1,11 @@
+framework module ContactTracerSDK {
+  umbrella header "ContactTracerSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ContactTracerSDK.Swift {
+    header "ContactTracerSDK-Swift.h"
+    requires objc
+}
